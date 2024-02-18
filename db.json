@@ -1,0 +1,85 @@
+{
+  "profesores": [
+    {
+      "nombre": "Sergie",
+      "apellido": "Code",
+      "materias": [
+        "NodeJS",
+        "JavaScript"
+      ],
+      "id": "d788"
+    },
+    {
+      "nombre": "Maria",
+      "apellido": "Gomez",
+      "materias": [
+        "Quimica",
+        "Biologia"
+      ],
+      "id": "1de7"
+    },
+    {
+      "id": "aad4",
+      "nombre": "Sergie",
+      "apellido": "Code",
+      "materias": [
+        "NodeJS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "alumnos": [
+    {
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "materias": [
+        "NodeJS",
+        "JavaScript"
+      ],
+      "id": "c04a"
+    },
+    {
+      "nombre": "Ana",
+      "apellido": "Gomez",
+      "materias": [
+        "Quimica",
+        "Biologia"
+      ],
+      "id": "8bcd"
+    }
+  ],
+  "materias": [
+    {
+      "nombre": "NodeJS",
+      "profesor": "Sergie Code",
+      "alumnos": [
+        "Juan Perez"
+      ],
+      "id": "43f8"
+    },
+    {
+      "nombre": "JavaScript",
+      "profesor": "Sergie Code",
+      "alumnos": [
+        "Juan Perez"
+      ],
+      "id": "0614"
+    },
+    {
+      "nombre": "Quimica",
+      "profesor": "Maria Gomez",
+      "alumnos": [
+        "Ana Gomez"
+      ],
+      "id": "6dac"
+    },
+    {
+      "nombre": "Biologia",
+      "profesor": "Maria Gomez",
+      "alumnos": [
+        "Ana Gomez"
+      ],
+      "id": "30d3"
+    }
+  ]
+}

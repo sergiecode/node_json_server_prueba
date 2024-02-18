@@ -1,0 +1,14 @@
+{
+  "name": "json-server-node-prueba",
+  "version": "0.0.1",
+  "description": "Utilización de Json Server Prueba para curso",
+  "main": "app.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "Sergie Code",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
